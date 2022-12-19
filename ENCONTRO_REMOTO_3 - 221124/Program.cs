@@ -16,7 +16,7 @@ pf1.DataNaceimento = new DateTime(1985, 5, 3);
 pf1.Rendimento=10000;
 pf1.Endereco = endPf1;
 
-// Print dos console
+// Print do console
 
 Console.WriteLine("\n-------------Dados do Cliente---------------");
 
