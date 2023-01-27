@@ -107,7 +107,7 @@ do
                                     //Adciona objetos dentro da lista pessoa fisica
                                     //ListaPf.Add(pf1); - esse codigo alimentava a lista antes do encontro remoto 8
 
-                                    using (StreamWriter sw = new StreamWriter ("Pessoa_Fisica.txt"))
+                                    using (StreamWriter sw = new StreamWriter ($"{pf1.Nome}.txt"))
                                     {
                                         sw.WriteLine($"Nome ={pf1.Nome}");
                                         sw.WriteLine($"Cpf = {pf1.Cpf}");
